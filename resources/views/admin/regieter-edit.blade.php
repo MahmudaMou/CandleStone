@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 
 @section('title')
       Eidt User
@@ -32,7 +32,7 @@
                                   </select>
                            </div>
                           <button type="submit" class="btn btn-success">Update</button>
-                          <a href="/registered" class="btn btn-danger">Cancel</a>
+                          <a href="{{route('users')}}" class="btn btn-danger">Cancel</a>
                         </form>
 
                          </div>

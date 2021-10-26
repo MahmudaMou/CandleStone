@@ -1,5 +1,7 @@
-@extends('layouts.app')
-
+@extends('auth.app')
+@section('title')
+     Admin Register
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
